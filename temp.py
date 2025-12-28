@@ -11,7 +11,7 @@ data = {
 #ziauriai rimtas sakinys su ziauriai rimtais zodziais
 
 
-
-
+df = pd.DataFrame(data)
+print(df)
 print("end")
 
