@@ -19,4 +19,8 @@ data2= {
 df2 = pd.DataFrame(data2)
 print(df2)
 
+df = pd.DataFrame(data)
+print(df)
+
+
 
