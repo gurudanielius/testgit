@@ -9,9 +9,14 @@ data = {
 }
 
 #ziauriai rimtas sakinys su ziauriai rimtais zodziais
+#additonal dataframe
+data2= {
+    'City': ['New York', 'Los Angeles', 'Chicago'],
+    'Country': ['USA', 'USA', 'USA'],
+    'Population': [8419600, 3980400, 2716000],
+    'Area': [783.8, 503, 227.3]
+}
+df2 = pd.DataFrame(data2)
+print(df2)
 
-
-df = pd.DataFrame(data)
-print(df)
-print("end")
 
